@@ -11,7 +11,7 @@ if (obj.data.card) {
         "label": {
             "bg_color": "#FB7299",
             "bg_style": 1,
-            "text": "十年大会员",
+            "text": "年度大会员",
             "border_color": "",
             "path": "",
             "label_theme": "ten_annual_vip",
