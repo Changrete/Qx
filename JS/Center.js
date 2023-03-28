@@ -8,7 +8,7 @@ obj['data']['union_vip'] = [];
 obj['data']['other_open_info'] = [];
 obj['data']['user']['vip_overdue_explain'] = "大会员有效期 2999\/12\/31";
 obj['data']['user']['tv_overdue_explain'] = "电视大会员有效期 2999\/12\/31";
-obj['data']['user']['panel_sub_title'] = "十年大会员";
+obj['data']['user']['panel_sub_title'] = "年度大会员";
 obj['data']['user']['notice']['can_close'] = true;
 obj['data']['user']['notice']['surplus_seconds'] = 604800;
 //obj['data']['user']['notice']['type'] = 2;
@@ -24,7 +24,7 @@ obj['data']['user']['vip'] = {
         "bg_color": "#FB7299",
         "text_color": "#FFFFFF",
         "bg_style": 1,
-        "text": "十年大会员",
+        "text": "年度大会员",
         "border_color": "",
         "path": "",
         "label_theme": "ten_annual_vip"
