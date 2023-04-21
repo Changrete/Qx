@@ -1,0 +1,7 @@
+[filter_local]
+
+# 高德地图
+
+HOST, amap-aos-info-nogw.amap.com, REJECT
+HOST, awaken.amap.com, REJECT
+HOST, free-aos-cdn-image.amap.com, REJECT

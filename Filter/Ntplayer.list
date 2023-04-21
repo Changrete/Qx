@@ -1,0 +1,17 @@
+[filter_local]
+
+;Ntplayer去广告
+
+host, api-access.pangolin-sdk-toutiao.com, reject
+host, api-access.pangolin-sdk-toutiao-b.com, reject
+host, ulogs.umengcloud.com, reject
+host, ulogs.umeng.com, reject
+host, mon.zijieapi.com, reject
+host, mssdk-bu.bytedance.com, reject
+host, p6-be-pack-sign.pglstatp-toutiao.com, reject
+host, sf3-fe-tos.pglstatp-toutiao.com, reject
+host, p26-be-pack-sign.pglstatp-toutiao.com, reject
+host, p9-be-pack-sign.pglstatp-toutiao.com, reject
+host, log-api.pangolin-sdk-toutiao-b.com, reject
+host, log-api.pangolin-sdk-toutiao.com, reject
+host, p3-be-pack-sign.pglstatp-toutiao.com, reject
