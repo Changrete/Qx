@@ -1,0 +1,13 @@
+[rewrite_local]
+
+## 百度 //boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
+## 知道搜索广告
+^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
+## 搜索首页广告
+^https?:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
+## 搜索结果广告
+^https?:\/\/(www|m)\.baidu\.com\/.*word=.* url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
+## 百度防跳转
+^https?:\/\/boxer\.baidu\.com\/scheme\?scheme url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
+
+hostname = boxer.baidu.com, m.baidu.com, www.baidu.com,
