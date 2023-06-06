@@ -162,17 +162,7 @@ IP-CIDR,134.175.207.130/32,BiliBili
 IP-CIDR,203.107.1.0/24,BiliBili
 
 
-#Emby
 
-
-
-host, gsp64-ssl.ls.apple.com, direct
-host, play.acemby.org, direct
-host, firebaselogging-pa.googleapis.com, direct
-host, connect.emby.media, direct
-host, 32-courier.push.apple.com, direct
-host, playold.acemby.org, direct
-host, 1.4545.cf, direct
 
 
 #高德
