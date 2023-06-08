@@ -1,5 +1,5 @@
 const $ = new Env("查询油价");
-var region = $.getdata("地区") || "jiande";
+var region = $.getdata("地区") || "hangzhou";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
