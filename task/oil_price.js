@@ -11,7 +11,7 @@
 0 8 * * * https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js, tag=今日油价, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/oil.png, enabled=true
 */
 const $ = new Env("查询油价");
-var region = $.getdata("地区") || "zhejiang/hangzhou";
+var region = $.getdata("地区") || "zhejiang/hangzhou/jiande";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
