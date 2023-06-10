@@ -196,7 +196,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,xag.iouixppsx.zlslpxaxb.pioxksa.com,
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,ab.puitot.com,cfxian.xickud.com,ioeurn.yrvguhx.com,bblmfy.cbsbwr.com,bllmfy.hxcwqh.com,bbll.madou*,*.xd01.*,*.ggfzhbe.*,*.iouixp.*,*.zlslpx.*,*.pioxksa.*,*.iouixp.*,*zhihuav*,*8792hh*,*yhek*,lps.quftbyp.com,xpd.lrg3z7t.com,xlw.rsly4ni.com,*riyufanyi*,*fuhuida*,*milk*,plxk.fhlium.com,xdk.coegcj.com,xuoa.vwymyr.com,*rwut*,*luoli*,*cmw*,*cwc*,api.wy*.com,*jhkjcp*,*xhxxqt*,*wbbcv*,*wbwxe*,*wbtho*,*ouhklw*,*antvapp*,*s400*,*fuaybr*,api.685x.top,tx*.com,*wbbcv*,*wbapi*,*wbwxe*,*wbtho*,*xingman*,*ukids.cn,*palmestore*,*cyapi*,www.dmh*.com,*fuhuida*,smh*.com,*rwut*,api.wy*.com,api.hx*.com,bk*.com,tx*.com,51*.com,*sotong*,gentlemanapp*,*mysteel*,*ubestkid*,91*.com,*pfd*,*twittme*,*zhihuav*,*wbbcv*,*fuaybr*,appapi*,*17gwl*,*sgyrc*,*mnghx*,*czbt*,*snailsleep*,*.caiyunapp.*,*xo2xo*,*hnyiya*,sjk*,*sez*,51h*,*rwut*,*luoli*,*cmw*,*.zymk.cn,*antv*,*sssm*
 
 
 
