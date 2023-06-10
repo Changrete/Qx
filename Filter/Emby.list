@@ -1,12 +1,19 @@
-[filter_local]
 
 
-#Emby
 
-host, gsp64-ssl.ls.apple.com, direct
-host, play.acemby.org, direct
-host, firebaselogging-pa.googleapis.com, direct
-host, connect.emby.media, direct
-host, 32-courier.push.apple.com, direct
-host, playold.acemby.org, direct
-host, 1.4545.cf, direct
+#百度
+
+
+# 知道搜索广告
+^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
+# 搜索首页广告
+^https?:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
+# 搜索结果广告
+^https?:\/\/(www|m)\.baidu\.com\/.*word=.* url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
+# 百度防跳转
+^https?:\/\/boxer\.baidu\.com\/scheme\?scheme url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
+
+
+
+
+hostname = boxer.baidu.com,m.baidu.com,www.baidu.com,appwk.baidu.com
