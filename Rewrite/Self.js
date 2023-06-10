@@ -14,6 +14,9 @@
 ^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v2 url reject-200
 
 
+
+#https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet
+#网易云音乐
 # 开屏广告,首页顶部横幅广告
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* url reject-dict
 
