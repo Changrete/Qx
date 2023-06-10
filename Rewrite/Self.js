@@ -185,11 +185,18 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
+#https://raw.githubusercontent.com/WeiRen0/Free1/main/Lsp.conf
+#69小黄书🚗地址-: https://xhs69.com/
+^http[s]?:\/\/(xag\.iouixp|psx\.zlslpx|axb\.pioxksa)\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\=.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xhs.js
 
 
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,
+
+
+
+
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,xag.iouixppsx.zlslpxaxb.pioxksa.com,
 
 
 
