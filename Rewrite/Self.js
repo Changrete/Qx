@@ -14,6 +14,42 @@
 ^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v2 url reject-200
 
 
+# 开屏广告,首页顶部横幅广告
+^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* url reject-dict
+
+# 搜索页,填充词,排行榜
+^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) url reject-dict
+
+# 播放页,多余图标,各种小提示,高品质音乐试用弹窗
+^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get\? url reject-dict
+^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get\? url reject-dict
+
+# 评论页,插入广告,回复广告,星评馆
+^https:\/\/interface3\.music\.163\.com\/eapi\/batch\? url request-header appver=.+; request-header appver=2333;
+^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)\? url reject-dict
+^https?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get\? url reject-dict
+
+# 首页,右上角多余图标,会员续费弹窗,侧边栏推广
+^https:\/\/interface3\.music\.163\.com\/eapi\/event\/floating\/layer\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)\? url reject-dict
+^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver)\? url reject-dict
+
+# 我的页面,小部件红点
+^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint\? url reject-dict
+
+# 播客,弹出广告
+^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info\? url reject-dict
+
+# 歌单页,横幅广告
+^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? url reject-dict
+^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? url reject-dict
+
+
 #网易云移除播放页的各种小提示
 ^https:\/\/interface3\.music\.163\.com\/eapi\/link\/position\/show\/strategy\? url reject-dict
 #网易云移除会员续费弹窗提醒
@@ -214,7 +250,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,iouixp.*,*.zlslpx.*,*.pioxksa.*,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface*.music.163.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,iouixp.*,*.zlslpx.*,*.pioxksa.*,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,
 
 
 
