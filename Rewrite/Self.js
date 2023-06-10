@@ -19,6 +19,14 @@
 #网易云移除会员续费弹窗提醒
 ^https:\/\/interface3\.music\.163\.com\/eapi\/vipauth\/app\/auth\/recycle\? url reject-dict
 
+
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,
+
+
+
+
+
+#https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 #Google重定向
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
@@ -107,13 +115,41 @@
 ^http:\/\/(www.)?aicoin\.cn\/$ url 302 https://www.aicoin.com/
 
 
+hostname = www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com
 
+
+
+
+#https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf
 # Emby解锁播放权限
 ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
-
 
 
 hostname = mb3admin.com
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com
+#https://raw.githubusercontent.com/deezertidal/QuantumultX-Rewrite/master/rewrite/colorweather.conf
+#彩云天气会员
+^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/cytq.js
+^https:\/\/ad\.caiyunapp\.com\/ url reject
+
+
+
+hostname=*.caiyunapp.*,*cyapi*
+
+
+
+
+https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant
+#YouTubeCC字幕
+https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
+
+
+hostname= www.youtube.com
+
+
+
+
+
+
+
