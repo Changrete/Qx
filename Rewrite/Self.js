@@ -107,4 +107,13 @@
 ^http:\/\/(www.)?aicoin\.cn\/$ url 302 https://www.aicoin.com/
 
 
+
+# Emby解锁播放权限
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
+
+
+
+hostname = mb3admin.com
+
+
 hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,interface3.music.163.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com
