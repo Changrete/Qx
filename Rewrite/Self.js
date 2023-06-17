@@ -175,11 +175,6 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-#https://raw.githubusercontent.com/WeiRen0/Free1/main/Lsp.conf
-#69小黄书🚗地址-: https://xhs69.com/
-^http[s]?:\/\/(xag\.iouixp|psx\.zlslpx|axb\.pioxksa)\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\=.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xhs.js
-
-
 #https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf
 # ======= 视频广告请求 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
