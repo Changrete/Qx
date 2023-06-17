@@ -16,10 +16,6 @@
 
 
 
-
-
-
-
 #https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf
 #Google重定向
 # Redirect Google Search Service
@@ -208,7 +204,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,iouixp.*,*.zlslpx.*,*.pioxksa.*,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,
 
 
 
