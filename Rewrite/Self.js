@@ -9,7 +9,7 @@
 #安吉星开屏广告
 ^https:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v1\/public\/landingpage url reject-dict
 #内部广告
-^https:\/\/api\.shanghaionstar\.com\/sos\/mobileBizAggr\/v3\/public\/banners url reject-200
+#^https:\/\/api\.shanghaionstar\.com\/sos\/mobileBizAggr\/v3\/public\/banners url reject-200
 # > 安吉星去升级提示
 ^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v2 url reject-200
 
