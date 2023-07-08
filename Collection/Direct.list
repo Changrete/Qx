@@ -273,5 +273,3 @@ host-keyword, ess.apple.com, direct
 
 host, emby.acemby.org, direct
 host, play.acemby.org, direct
-IP-CIDR65.75.221.28/443, direct
-IP-CIDR,172.19.0.7/8096, direct
