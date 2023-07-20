@@ -155,6 +155,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 #https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf
+#YouTube
 # ======= 视频广告请求 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
@@ -173,6 +174,21 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
+# 请求体
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? url script-request-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-request.js
+
+# 响应体
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-response.js
+
+# 播放页广告
+^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad url reject-dict
+
+
+
+
+
+
+#bilibili
 #https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule
 # 1. 去除交互式弹幕
 # 2. 去除青少年弹窗
@@ -193,7 +209,7 @@ bilibili.helper.dynAll = type=http-response,pattern=^https:\/\/grpc\.biliapi\.ne
 
 
 
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,%APPEND% grpc.biliapi.net, app.bilibili.com,
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,%APPEND% grpc.biliapi.net, app.bilibili.com,
 
 
 
