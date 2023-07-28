@@ -274,3 +274,14 @@ host-keyword, ess.apple.com, direct
 host, emby.acemby.org, direct
 host, play.acemby.org, direct
 host, emby.kim, direct
+
+
+#Shopify
+HOST-SUFFIX,myshopify.com,Shopify
+HOST-SUFFIX,shop.app,Shopify
+HOST-SUFFIX,shopify.com,Shopify
+HOST-SUFFIX,shopify.dev,Shopify
+HOST-SUFFIX,shopifycdn.com,Shopify
+HOST-SUFFIX,shopifycloud.com,Shopify
+HOST-SUFFIX,shopifystatus.com,Shopify
+HOST-SUFFIX,shopifysvc.com,Shopify
