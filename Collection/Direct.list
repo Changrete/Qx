@@ -285,3 +285,14 @@ HOST-SUFFIX,shopifycdn.com,Shopify
 HOST-SUFFIX,shopifycloud.com,Shopify
 HOST-SUFFIX,shopifystatus.com,Shopify
 HOST-SUFFIX,shopifysvc.com,Shopify
+
+
+
+#BiliBiliIntl
+HOST,apm-misaka.biliapi.net,BiliBiliIntl
+HOST,p-bstarstatic.akamaized.net,BiliBiliIntl
+HOST,p.bstarstatic.com,BiliBiliIntl
+HOST,upos-bstar-mirrorakam.akamaized.net,BiliBiliIntl
+HOST,upos-bstar1-mirrorakam.akamaized.net,BiliBiliIntl
+HOST-SUFFIX,bilibili.tv,BiliBiliIntl
+HOST-SUFFIX,biliintl.com,BiliBiliIntl
