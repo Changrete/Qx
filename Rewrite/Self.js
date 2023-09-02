@@ -1,9 +1,10 @@
 ##浙里办广告
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic url reject-200
 
-#爱思
+#爱思开屏
 ^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject-200
-^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject-200
+#爱思全干掉
+response,pattern=^https?:\/\/(search|list)-app-m\.i4\.cn\/(getHotSearchList|getAppList)\.xhtml,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/aisi.js
 
 
 #安吉星开屏广告
@@ -191,6 +192,8 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
+# 大师兄 sdk.alibaba.com.ailbaba.me
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/(dsx|xgapp)\.php\/v\d\/(top_notice\?|app_config|search_hot|version|advert\?position=[^2]+) data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
 
 
@@ -203,8 +206,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
-
-hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,
+hostname = portal.zjzwfw.gov.cn,list-app-m.i4.cn,search-app-m.i4.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me
 
 
 
