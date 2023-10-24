@@ -101,7 +101,7 @@
 
 #https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf
 # Emby解锁播放权限
-^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
+#^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
 
 
 
@@ -166,7 +166,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 #https://raw.githubusercontent.com/deezertidal/QuantumultX-Rewrite/master/rewrite/SpotifyPremium.conf
-#spotify
+#spotify会员
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 
 
