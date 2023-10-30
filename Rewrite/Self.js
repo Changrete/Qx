@@ -180,6 +180,11 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
 
 
+#Apple map
+
+# Redirect Apple Maps to US
+(^https?:\/\/gspe\d*-ssl\.ls\.apple\.)(com|cn)(\/.*)(country_code=[A-Z]{2})(.*) url 302 $1$2$3country_code=US$5
+(^https?:\/\/gspe\d*-ssl\.ls\.apple\.)(com|cn)(\/.*)(environment=[a-z/-]{4,})(.*) url 302 $1$2$3environment=prod$5
 
 
 
@@ -187,7 +192,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
-hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
+hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,gspe35-ssl.ls.apple.com
 
 
 
