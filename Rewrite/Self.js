@@ -20,8 +20,7 @@
 # Redirect Google Maps Service
 ^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
 
-# Redirect HTTP to HTTPS
-^https?:\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
+# Redirect HTTP to HTTPS我https?:\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
 ^https?:\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
 ^https?:\/\/(www.)?mi\.com\/ url 302 https://www.mi.com/
 ^https?:\/\/you\.163\.com\/ url 302 https://you.163.com/
@@ -101,7 +100,7 @@
 
 #https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf
 # Emby解锁播放权限
-#^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
+
 
 
 
@@ -188,7 +187,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
-hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,mb3admin.com,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
+hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
 
 
 
