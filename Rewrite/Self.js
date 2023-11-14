@@ -161,9 +161,6 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
-# 大师兄 sdk.alibaba.com.ailbaba.me
-^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/(dsx|xgapp)\.php\/v\d\/(top_notice\?|app_config|search_hot|version|advert\?position=[^2]+) data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
-
 
 #bilibili
 #bilibili我的界面
@@ -187,7 +184,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 
 
-hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,sdk.alibaba.com.ailbaba.me,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
+hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,,*.caiyunapp.*,*cyapi*,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
 
 
 
