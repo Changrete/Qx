@@ -157,7 +157,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet
 
 #https://raw.githubusercontent.com/deezertidal/QuantumultX-Rewrite/master/rewrite/SpotifyPremium.conf
 #spotify会员
-#^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 
 
 
