@@ -121,12 +121,6 @@ host-keyword, gsa.apple.com, direct
 host-keyword, ess.apple.com, direct
 
 
-#Emby
-
-host, emby.acemby.org, direct
-host, play.acemby.org, direct
-host, emby.kim, direct
-
 
 #Shopify
 HOST-SUFFIX,myshopify.com,Shopify
