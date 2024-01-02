@@ -153,7 +153,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,spclient.wg.spotify.com,app.bilibili.com,grpc.biliapi.net,*.bilibili.com,
+hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,spclient.wg.spotify.com,app.bilibili.com,grpc.biliapi.net,
 
 
 
