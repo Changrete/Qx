@@ -124,7 +124,8 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-
+# Emby
+^https:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/unlock.js
 
 
 
@@ -150,7 +151,7 @@ https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=
 
 
 
-hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,app.bilibili.com,grpc.biliapi.net,
+hostname = portal.zjzwfw.gov.cn,api.shanghaionstar.com,www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,www.youtube.com,rr*.googlevideo.com, youtubei.googleapis.com,boxer.baidu.com, m.baidu.com, www.baidu.com,app.bilibili.com,grpc.biliapi.net,mb3admin.com,
 
 
 
