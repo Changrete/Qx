@@ -1,4 +1,40 @@
-#
+#WeChat
+
+host, sgminorshort.wechat.com, direct
+host, sgshort.wechat.com, direct
+host, sglong.wechat.com, direct
+host, gateway.icloud.com, direct
+host, dl.wechat.com, direct
+
+geoip, 43.160.144.10:80, direct
+geoip, 43.156.222.165:443, direct
+geoip, 43.156.222.165:443, direct
+geoip, 43.160.144.10:443, direct
+geoip, 43.160.144.24:443, direct
+
+
+
+
+
+
+#spotify
+host, canvaz.scdn.co, direct
+host, cdn.branch.io, direct
+host, video-akpcw-cdn-spotify-com.akamaized.net, direct
+host, i.scdn.co, direct
+host, image-cdn-ak.spotifycdn.com, direct
+host, sb.scorecardresearch.com, direct
+host, gae2-spclient.spotify.com, direct
+host, ap-guc3.spotify.com, direct
+host, ap-gae2.spotify.com, direct
+host, gae2-dealer.spotify.com, direct
+host, apresolve.spotify.com, direct
+host, api3.branch.io, direct
+host, audio-ak-spotify-com.akamaized.net, direct
+host, spclient.wg.spotify.com, direct
+
+
+
 #支付宝
 HOST-SUFFIX,alipay,AliPay
 HOST-SUFFIX,alipay-corp.com,AliPay
