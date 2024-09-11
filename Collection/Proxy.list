@@ -288,6 +288,21 @@ IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube
 
 
+# NAME: Instagram
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:12
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 3
+# TOTAL: 4
+HOST-SUFFIX,cdninstagram.com,Instagram
+HOST-SUFFIX,instagr.am,Instagram
+HOST-SUFFIX,instagram.com,Instagram
+HOST-KEYWORD,instagram,Instagram
+
+
+
+
 #Google
 HOST,265.com,Google
 HOST,2mdn-cn.net,Google
