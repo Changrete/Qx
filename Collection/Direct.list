@@ -1,22 +1,3 @@
-#WeChat
-
-host, sgminorshort.wechat.com, direct
-host, sgshort.wechat.com, direct
-host, sglong.wechat.com, direct
-host, gateway.icloud.com, direct
-host, dl.wechat.com, direct
-
-geoip, 43.160.144.10:80, direct
-geoip, 43.156.222.165:443, direct
-geoip, 43.156.222.165:443, direct
-geoip, 43.160.144.10:443, direct
-geoip, 43.160.144.24:443, direct
-
-
-
-
-
-
 #spotify
 host, canvaz.scdn.co, direct
 host, cdn.branch.io, direct
@@ -155,19 +136,6 @@ host-keyword, api-adservices.apple.com, direct
 host-keyword, ls.apple.com, direct
 host-keyword, gsa.apple.com, direct
 host-keyword, ess.apple.com, direct
-
-
-
-#Shopify
-HOST-SUFFIX,myshopify.com,Shopify
-HOST-SUFFIX,shop.app,Shopify
-HOST-SUFFIX,shopify.com,Shopify
-HOST-SUFFIX,shopify.dev,Shopify
-HOST-SUFFIX,shopifycdn.com,Shopify
-HOST-SUFFIX,shopifycloud.com,Shopify
-HOST-SUFFIX,shopifystatus.com,Shopify
-HOST-SUFFIX,shopifysvc.com,Shopify
-
 
 
 #BiliBiliIntl
