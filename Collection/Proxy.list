@@ -85,6 +85,23 @@ HOST-SUFFIX,tiktokv.us,TikTok
 HOST-SUFFIX,ttwebview.com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok
+host, frontier.tiktokv.us,TikTok
+host, webcast16-normal-useast5.tiktokv.us,TikTok
+host, mssdk16-normal-useast5.tiktokv.us,TikTok
+host, gecko16-normal-useast5.tiktokv.us,TikTok
+host, api19-core-useast5.tiktokv.us,TikTok
+host, gecko16-normal-useast5.tiktokv.us, TikTok
+host, oec16-normal-useast5.tiktokv.us,TikTok
+host, api16-normal-useast5.tiktokv.us,TikTok
+host, api19-core-useast5.tiktokv.us,TikTok
+host, api19-normal-useast5.tiktokv.us,TikTok
+host, gecko16-normal-useast5.tiktokv.us,TikTok
+host, v19.tiktokcdn-us.com,TikTok
+host, p16-pu-useast8.tiktokcdn-us.com,TikTok
+host, dig.tiktokv.us,TikTok
+host, tnc16-normal-useast8.tiktokv.us,TikTok
+host, vcs16-normal-useast5.tiktokv.us,TikTok
+host, mon16-normal-useast5.tiktokv.us,TikTok
 USER-AGENT,TikTok*,TikTok
 
 
