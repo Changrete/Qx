@@ -128,6 +128,10 @@ host, tnc16-normal-useast8.tiktokv.us,TikTok
 host, vcs16-normal-useast5.tiktokv.us,TikTok
 host, mon16-normal-useast5.tiktokv.us,TikTok
 USER-AGENT,TikTok*,TikTok
+host, roovza-launches.appsflyersdk.com, TikTok
+host, api.snapkit.com, TikTok
+host, roovza-skadsdk.appsflyersdk.com, TikTok
+
 
 
 
