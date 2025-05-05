@@ -8,4 +8,14 @@ ip6-cidr, ::0/0, proxy
 
 #          域名(在无ipv6下开启)
 
-host, adieuy.xyz, proxy
+host, nas.adieuy.xyz, proxy
+
+host, tv.adieuy.xyz, proxy
+
+host, dc.adieuy.xyz, proxy
+
+host, alist.adieuy.xyz, proxy
+
+host, lucky.adieuy.xyz, proxy
+
+host, emby.adieuy.xyz, proxy
