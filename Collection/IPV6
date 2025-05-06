@@ -1,6 +1,6 @@
 #          Ipv6(在无ipv6下开启)
 
-ip6-cidr, ::0/0, proxy
+#ip6-cidr, ::0/0, proxy
 
 
 
@@ -25,3 +25,6 @@ host, lucky.adieuy.xyz, proxy
 
 #Emby
 host, emby.adieuy.xyz, proxy
+
+#域名
+hosy, adieuy.xyz, porxy
