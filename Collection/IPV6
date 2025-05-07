@@ -11,22 +11,22 @@ ip6-cidr, ::0/0, proxy
 #          域名(在无ipv6下开启)
 
 #极空间
-host, nas.adieuy.xyz, proxy
+HOST-SUFFIX,nas.adieuy.xyz, proxy
 
 #libreTV
-host, tv.adieuy.xyz, proxy
+HOST-SUFFIX,tv.adieuy.xyz, proxy
 
 #docker copilot
-host, dc.adieuy.xyz, proxy
+HOST-SUFFIX,dc.adieuy.xyz, proxy
 
 #Alist
-host, alist.adieuy.xyz, proxy
+HOST-SUFFIX,alist.adieuy.xyz, proxy
 
 #Lucky
-host, lucky.adieuy.xyz, proxy
+HOST-SUFFIX,lucky.adieuy.xyz, proxy
 
 #Emby
-host, emby.adieuy.xyz, proxy
+HOST-SUFFIX,emby.adieuy.xyz, proxy
 
 #域名
-hosy, adieuy.xyz, porxy
+HOST-SUFFIX,adieuy.xyz, porxy
