@@ -2,7 +2,7 @@
 
 #          Ipv6(在无ipv6下开启)
 
-ip6-cidr, ::0/0, proxy
+ip6-cidr, 240e:390:2aa:7870:1e83:41ff:fee4:269a/64, proxy
 
 
 
