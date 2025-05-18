@@ -8,25 +8,3 @@ ip6-cidr, ::0/0,proxy
 
 
 
-#          域名(在无ipv6下开启)
-
-#极空间
-HOST-SUFFIX,nas.adieuy.xyz
-
-#libreTV
-HOST-SUFFIX,tv.adieuy.xyz
-
-#docker copilot
-HOST-SUFFIX,dc.adieuy.xyz
-
-#Alist
-HOST-SUFFIX,alist.adieuy.xyz
-
-#Lucky
-HOST-SUFFIX,lucky.adieuy.xyz
-
-#Emby
-HOST-SUFFIX,emby.adieuy.xyz
-
-#域名
-HOST-SUFFIX,adieuy.xyz
