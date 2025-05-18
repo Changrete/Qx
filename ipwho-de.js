@@ -22,5 +22,5 @@ var subtitle = asName + '｜' + obj['ip'] + '⬩' + 'AS' + obj['asn'];
 var ip = obj['ip'];
 var description = countryFlag + '' + obj['country_name'] + '\n' + cityName + '\n' + obj['as_desc'] + '\n' + obj['ip'] + '\n' + 'AS' + obj['asn'];
 
-$done({ ip, description });
+$done({ title, subtitle, ip, description });
 
