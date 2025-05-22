@@ -18,8 +18,8 @@ var cityName = obj['city_name'] || obj['country_name'];
 var countryFlag = flags.get(obj['country_code']) || '🌐';
 
 var title = countryFlag + ' ' + obj['country_code'] + '⋅' + cityName;
-var subtitle = obj['ip'];
+var subtitle = obj['ip'] + '⬩' + 'AS' + obj['asn'];
 var ip = obj['ip'];
-var description = countryFlag + '' + obj['country_name'] + '\n' + cityName + '\n' + obj['ip'];
+var description = countryFlag + '' + obj['country_name'] + '\n' + cityName + '\n' + obj['ip'] + '\n' + 'AS' + obj['asn'];
 
 $done({ title, subtitle, ip, description });
