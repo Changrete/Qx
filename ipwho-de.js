@@ -20,6 +20,6 @@ var countryFlag = flags.get(obj['country_code']) || '🌐';
 var title = countryFlag + ' ' + obj['country_code'] + '⋅' + cityName;
 var subtitle = obj['ip'];
 var ip = obj['ip'];
-var description = countryFlag + '' + obj['country_name'] + '\n' + cityName + '\n' + 'IP' +'\n' + obj['ip'];
+var description = countryFlag + '' + obj['country_name'] + '\n' + cityName + '\n' + 'IP:' + obj['ip'];
 
 $done({ title, subtitle, ip, description });
