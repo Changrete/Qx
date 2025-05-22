@@ -2,7 +2,7 @@
 
 #          Ipv6(在无ipv6下开启)
 
-ip6-cidr, ::0/0,proxy
+#ip6-cidr, ::0/0,proxy
 
 
 
