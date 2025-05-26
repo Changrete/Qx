@@ -18,7 +18,7 @@ var cityName = obj['city_name'] || obj['country_name'];
 var countryFlag = flags.get(obj['country_code']) || '🌐';
 
 var title = countryFlag + ' ' + obj['country_code'] + '⋅' + cityName;
-var subtitle = maskedIP + '⬩' + 'AS' + obj['asn'];
+var subtitle = asName + '｜' + maskedIP + '⬩' + 'AS' + obj['asn'];
 var description = 
   '─────────────\n' +
   'Country: ' + countryFlag + obj['country_name'] + '\n' +
