@@ -36,7 +36,6 @@ var description =
   '─────────────\n' +
   'Country: ' + countryFlag + obj['country_name'] + '\n' +
   'City: ' + cityName + '\n' +
-  'Org: ' + obj['as_desc'] + '\n' +
   'IP: ' + obj['ip'] + '\n' +
   'ASN: AS' + obj['asn'] + '\n' +
   '─────────────';
