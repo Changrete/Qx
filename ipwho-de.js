@@ -38,6 +38,7 @@ var description =
   'City: ' + cityName + '\n' +
   'Org: ' + obj['as_desc'] + '\n' +
   'IP: ' + obj['ip'] + '\n' +
+  'ASN: AS' + obj['asn'] + '\n' +
   '─────────────';
 
 $done({ title, subtitle, ip: maskedIP });
