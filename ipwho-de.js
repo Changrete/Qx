@@ -41,4 +41,4 @@ var description =
   'ASN: AS' + obj['asn'] + '\n' +
   '─────────────';
 
-$done({ title, subtitle, ip: maskedIP });
+$done({ title, subtitle, ip: maskedIP， description });
