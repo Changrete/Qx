@@ -31,7 +31,7 @@ function maskIP(ip) {
 var maskedIP = maskIP(obj['ip']);
 
 var title = countryFlag + ' ' + obj['country_code'] + '⋅' + cityName;
-var subtitle = asName + '｜' + maskedIP;
+var subtitle = asName + '｜' + maskedIP + '⬩' + 'AS' + obj['asn'];
 var description = 
   '─────────────\n' +
   'Country: ' + countryFlag + obj['country_name'] + '\n' +
