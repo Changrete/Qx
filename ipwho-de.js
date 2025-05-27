@@ -40,4 +40,4 @@ var description =
   'IP: ' + obj['ip'] + '\n' +
   '─────────────';
 
-$done({ title, subtitle, ip: maskedIP，});
+$done({ title, subtitle, ip: maskedIP });
