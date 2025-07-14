@@ -1,13 +1,16 @@
 #标题格10上下格10
 #          其余
 
-HOST-SUFFIX,pornhub.com,other
-HOST-SUFFIX,media.nijigem.by,other
-HOST-SUFFIX,cn.pornhub.com,other
-HOST-SUFFIX,ei.phncdn.com,other
-HOST-SUFFIX,tanhuatv.site,other
-HOST-SUFFIX,assets-cdn.jable.tv,other
-HOST-SUFFIX,jable.tv,other
+DOMAIN-SUFFIX,javday.app
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,javrate.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,media-imdb.com
+DOMAIN-SUFFIX,tmdb.org
 
 
 
