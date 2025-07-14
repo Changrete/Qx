@@ -1,12 +1,13 @@
 #标题格10上下格10
 #          其余
-host, www.pornhub.com
-host, media.nijigem.by
-host, cn.pornhub.com
-host, ei.phncdn.com
-host, tanhuatv.site
-host, assets-cdn.jable.tv
-host, jable.tv
+
+HOST-SUFFIX,www.pornhub.com,other
+HOST-SUFFIX,media.nijigem.by,other
+HOST-SUFFIX,cn.pornhub.com,other
+HOST-SUFFIX,ei.phncdn.com,other
+HOST-SUFFIX,tanhuatv.site,other
+HOST-SUFFIX,assets-cdn.jable.tv,other
+HOST-SUFFIX,jable.tv,other
 
 
 
